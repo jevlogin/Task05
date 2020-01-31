@@ -3,7 +3,8 @@
 #include <stdlib.h>
 #include <malloc.h>
 #include <locale.h>
-#define T int
+#define T char
+#define C char
 #define ARR_SIZE 100
 
 //	будем использовать инициализатор запуска алгоритма, решения с рекурсией или без нее...
@@ -75,7 +76,7 @@ void PrintStack()
 	while (current != NULL)
 	{
 		
-		printf("%i ", current->value);
+		printf("%c ", current->value);
 		current = current->next;
 	}
 }

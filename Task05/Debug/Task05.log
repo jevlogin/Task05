@@ -1,10 +1,13 @@
 ﻿  Main.c
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(42,9): warning C4033: "push" должен возвращать значение
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(56,9): warning C4033: "pop" должен возвращать значение
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(88,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(43,9): warning C4033: "push" должен возвращать значение
+C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(57,9): warning C4033: "pop" должен возвращать значение
+C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(89,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 D:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : см. объявление "scanf"
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(21,1): warning C4305: инициализация: усечение из "__int64" в "int"
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(49): warning C4716: push: должна возвращать значение
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(70): warning C4715: pop: значение возвращается не при всех путях выполнения
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(116): warning C4715: convertToBinRecursion: значение возвращается не при всех путях выполнения
+C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(42,15): warning C4013: CheckStr: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(50,18): warning C4013: CheckFullStack: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(68,15): warning C4013: Inverse: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(117): warning C4715: convertToBinRecursion: значение возвращается не при всех путях выполнения
+C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(71): warning C4715: pop: значение возвращается не при всех путях выполнения
+C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(50): warning C4716: push: должна возвращать значение
+C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(76): warning C4716: CheckFullStack: должна возвращать значение
   Task05.vcxproj -> C:\Users\Евгений\OneDrive\C project\Task05\Debug\Task05.exe
