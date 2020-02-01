@@ -1,9 +1,7 @@
 #include "Header.h"
-#include <malloc.h>
 
 #define T char
 #define ARR_SIZE 100
-
 
 
 // Опишем структуру узла списка
@@ -14,13 +12,12 @@ struct TNode
 };
 typedef struct TNode Node;
 
-struct Stack
+struct Stack 
 {
 	Node* head;
 	int size;
 	int maxSize;
-};
-struct Stack Stack;
+} Stack;
 
 T push(T value)
 {

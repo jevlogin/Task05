@@ -1,24 +1,9 @@
-﻿  BracketSequence.c
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(11,19): error C2079: "Stack" использует не имеющую определения структуру struct "Stack"
-  Main.c
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(11,19): error C2079: "Stack" использует не имеющую определения структуру struct "Stack"
+﻿  Main.c
+C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(18,7): error C2065: Stack: необъявленный идентификатор
 C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(18,8): error C2224: выражение слева от ".maxSize" должно иметь тип структуры или объединения
+C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(20,7): error C2065: Stack: необъявленный идентификатор
 C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(20,8): error C2224: выражение слева от ".head" должно иметь тип структуры или объединения
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(22,9): warning C4013: Convert: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(25,9): warning C4013: Convert: нет определения; предполагается "extern" с возвратом типа "int"
   Struct.c
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(11,19): error C2079: "Stack" использует не имеющую определения структуру struct "Stack"
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Struct.c(23,14): error C2371: Stack: переопределение; различные базовые типы
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(11): message : см. объявление "Stack"
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Struct.c(27,12): error C2224: выражение слева от ".size" должно иметь тип структуры или объединения
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Struct.c(27,26): error C2224: выражение слева от ".maxSize" должно иметь тип структуры или объединения
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Struct.c(34,20): error C2224: выражение слева от ".head" должно иметь тип структуры или объединения
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Struct.c(35,8): error C2224: выражение слева от ".head" должно иметь тип структуры или объединения
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Struct.c(36,8): error C2224: выражение слева от ".size" должно иметь тип структуры или объединения
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Struct.c(41,12): error C2224: выражение слева от ".size" должно иметь тип структуры или объединения
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Struct.c(50,16): error C2224: выражение слева от ".head" должно иметь тип структуры или объединения
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Struct.c(51,15): error C2224: выражение слева от ".head" должно иметь тип структуры или объединения
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Struct.c(52,8): error C2224: выражение слева от ".head" должно иметь тип структуры или объединения
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Struct.c(52,21): error C2224: выражение слева от ".head" должно иметь тип структуры или объединения
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Struct.c(56,8): error C2224: выражение слева от ".size" должно иметь тип структуры или объединения
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Struct.c(62,24): error C2224: выражение слева от ".head" должно иметь тип структуры или объединения
   Создание кода...
+C:\Users\Евгений\OneDrive\C project\Task05\Task05\Struct.c(34): warning C4715: push: значение возвращается не при всех путях выполнения

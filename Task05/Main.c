@@ -13,13 +13,16 @@
 int main(int argc, char* argv[])
 {
 	setlocale(LC_ALL, "RUS");
+	
 	//	Максимальный размер стека
-
-	Stack.maxSize = 10;
+	Stack.maxSize = 100;
 	//	Голова обнуляется 
 	Stack.head = NULL;
-	
-	Convert();
+	//	Наполнение стека 
+	//	Вот новое число 7. Немного переписал, теперь число в главной функции передаем.
+	long N = 7;
+
+	Convert(N);
 
 
 	return 0;

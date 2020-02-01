@@ -21,10 +21,10 @@
     <ClCompile Include="BracketSequence.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Struct.c">
+    <ClCompile Include="Convert.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Convert.c">
+    <ClCompile Include="Struct.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

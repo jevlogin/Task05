@@ -2,11 +2,8 @@
 
 extern int k;
 
-void Convert()
+void Convert(long N)
 {
-	//	Наполнение стека
-	int N = 71456441;
-
 	ConvertTwo(N);
 
 	if (!overStack)

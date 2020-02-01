@@ -150,6 +150,7 @@
     <ClCompile Include="Struct.c">
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <FileType>CppCode</FileType>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

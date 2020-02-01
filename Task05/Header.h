@@ -8,6 +8,5 @@
 #include <locale.h>
 
 extern int overStack;
-struct Stack Stack;
 
 #endif // !_HEADER_H_
