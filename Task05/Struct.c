@@ -18,6 +18,7 @@ struct Stack
 	int size;
 	int maxSize;
 } Stack;
+struct Stack Stack;
 
 T push(T value)
 {

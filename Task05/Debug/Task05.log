@@ -1,9 +1,9 @@
 ﻿  Main.c
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(18,7): error C2065: Stack: необъявленный идентификатор
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(18,8): error C2224: выражение слева от ".maxSize" должно иметь тип структуры или объединения
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(20,7): error C2065: Stack: необъявленный идентификатор
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(20,8): error C2224: выражение слева от ".head" должно иметь тип структуры или объединения
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(25,9): warning C4013: Convert: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\jevlo\OneDrive\C project\Task05\Task05\Main.c(18,7): error C2065: Stack: необъявленный идентификатор
+C:\Users\jevlo\OneDrive\C project\Task05\Task05\Main.c(18,8): error C2224: выражение слева от ".maxSize" должно иметь тип структуры или объединения
+C:\Users\jevlo\OneDrive\C project\Task05\Task05\Main.c(20,7): error C2065: Stack: необъявленный идентификатор
+C:\Users\jevlo\OneDrive\C project\Task05\Task05\Main.c(20,8): error C2224: выражение слева от ".head" должно иметь тип структуры или объединения
   Struct.c
   Создание кода...
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Struct.c(34): warning C4715: push: значение возвращается не при всех путях выполнения
+C:\Users\jevlo\OneDrive\C project\Task05\Task05\Main.c(25,9): warning C4013: Convert: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\jevlo\OneDrive\C project\Task05\Task05\Struct.c(35): warning C4715: push: значение возвращается не при всех путях выполнения
