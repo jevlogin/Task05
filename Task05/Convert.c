@@ -1,6 +1,6 @@
 #include "Header.h"
 
-extern int k;
+int k;
 
 void Convert(long N)
 {

@@ -9,6 +9,20 @@
 	Ќо мне все равно еще плохо пон€тно как работать со стеком. ƒайте пожалуйста больше полезной информации, которую можно почитать. 
 	∆елательно разную, одну пр€мо дл€ тупых ))) и можно что-то более сложное, чтобы моз сумел воспри€ть все правильно.
 */
+struct TNode
+{
+	T value;
+	struct TNode* next;
+};
+typedef struct TNode Node;
+
+struct Stack
+{
+	Node* head;
+	int size;
+	int maxSize;
+} Stack;
+struct Stack Stack;
 
 int main(int argc, char* argv[])
 {

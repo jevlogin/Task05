@@ -1,9 +1,5 @@
 #include "Header.h"
 
-#define T char
-#define ARR_SIZE 100
-
-
 // Опишем структуру узла списка
 struct TNode
 {
@@ -18,7 +14,9 @@ struct Stack
 	int size;
 	int maxSize;
 } Stack;
-struct Stack Stack;
+extern struct Stack Stack;
+
+int overStack;
 
 T push(T value)
 {
@@ -61,7 +59,7 @@ void PrintStack()
 	while (current != NULL)
 	{
 
-		printf("%c ", current->value);
+		printf("%i ", current->value);
 		current = current->next;
 	}
 }
