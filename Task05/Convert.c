@@ -2,9 +2,9 @@
 
 int k;
 
-void Convert(long N)
+void Convert(long* N)
 {
-	ConvertTwo(N);
+	ConvertTwo(*N);
 
 	if (!overStack)
 	{

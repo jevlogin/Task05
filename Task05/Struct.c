@@ -1,20 +1,6 @@
+#pragma once
 #include "Header.h"
 
-// Опишем структуру узла списка
-struct TNode
-{
-	T value;
-	struct TNode* next;
-};
-typedef struct TNode Node;
-
-struct Stack 
-{
-	Node* head;
-	int size;
-	int maxSize;
-} Stack;
-extern struct Stack Stack;
 
 int overStack;
 

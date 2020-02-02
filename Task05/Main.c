@@ -9,34 +9,20 @@
 	Но мне все равно еще плохо понятно как работать со стеком. Дайте пожалуйста больше полезной информации, которую можно почитать. 
 	Желательно разную, одну прямо для тупых ))) и можно что-то более сложное, чтобы моз сумел восприять все правильно.
 */
-struct TNode
-{
-	T value;
-	struct TNode* next;
-};
-typedef struct TNode Node;
-
-struct Stack
-{
-	Node* head;
-	int size;
-	int maxSize;
-} Stack;
-struct Stack Stack;
 
 int main(int argc, char* argv[])
 {
 	setlocale(LC_ALL, "RUS");
-	
+
 	//	Максимальный размер стека
 	Stack.maxSize = 100;
 	//	Голова обнуляется 
 	Stack.head = NULL;
 	//	Наполнение стека 
 	//	Вот новое число 7. Немного переписал, теперь число в главной функции передаем.
-	long N = 7;
+	long* N = 7;
 
-	Convert(N);
+	Convert(&N);
 
 
 	return 0;

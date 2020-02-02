@@ -1,10 +1,5 @@
-﻿  BracketSequence.c
-  Convert.c
-C:\Users\jevlo\OneDrive\C project\Task05\Task05\Convert.c(24,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  Main.c
-  Struct.c
-  Создание кода...
-D:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : см. объявление "scanf"
-C:\Users\jevlo\OneDrive\C project\Task05\Task05\Struct.c(33): warning C4715: push: значение возвращается не при всех путях выполнения
-C:\Users\jevlo\OneDrive\C project\Task05\Task05\Convert.c(52): warning C4715: convertToBinRecursion: значение возвращается не при всех путях выполнения
-  Task05.vcxproj -> C:\Users\jevlo\OneDrive\C project\Task05\Debug\Task05.exe
+﻿  Main.c
+C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(25,12): warning C4047: функция: "long *" отличается по уровням косвенного обращения от "long **"
+C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(25,12): warning C4024: Convert: различные типы для формального и фактического параметров 1
+C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(23,1): warning C4047: инициализация: "long *" отличается по уровням косвенного обращения от "int"
+  Task05.vcxproj -> C:\Users\Евгений\OneDrive\C project\Task05\Debug\Task05.exe
