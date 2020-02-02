@@ -1,4 +1,5 @@
 ﻿  Main.c
+<<<<<<< HEAD
 C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(42,9): warning C4033: "push" должен возвращать значение
 C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(56,9): warning C4033: "pop" должен возвращать значение
 C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(88,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -7,4 +8,7 @@ C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(49): warning C
 C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(70): warning C4715: pop: значение возвращается не при всех путях выполнения
 C:\Users\Евгений\OneDrive\C project\Task05\Task05\Header.h(116): warning C4715: convertToBinRecursion: значение возвращается не при всех путях выполнения
   LINK : не найден или не выполнена сборка C:\Users\Евгений\OneDrive\C project\Task05\Debug\Task05.exe при последней инкрементной компоновке; выполняется полная компоновка
+=======
+C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(23,1): warning C4305: инициализация: усечение из "__int64" в "long"
+>>>>>>> error/2
   Task05.vcxproj -> C:\Users\Евгений\OneDrive\C project\Task05\Debug\Task05.exe
