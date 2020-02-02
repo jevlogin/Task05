@@ -18,7 +18,7 @@ int main(int argc, char* argv[])
 	//	Голова обнуляется 
 	Stack.head = NULL;
 	//	Наполнение стека
-	int N = 71456441168230;
+	int N = 714560;
 	ConvertTwo(N);
 	if (!overStack)
 	{
