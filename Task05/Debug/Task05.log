@@ -1,5 +1,3 @@
 ﻿  Main.c
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(25,12): warning C4047: функция: "long *" отличается по уровням косвенного обращения от "long **"
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(25,12): warning C4024: Convert: различные типы для формального и фактического параметров 1
-C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(23,1): warning C4047: инициализация: "long *" отличается по уровням косвенного обращения от "int"
+C:\Users\Евгений\OneDrive\C project\Task05\Task05\Main.c(23,1): warning C4305: инициализация: усечение из "__int64" в "long"
   Task05.vcxproj -> C:\Users\Евгений\OneDrive\C project\Task05\Debug\Task05.exe
